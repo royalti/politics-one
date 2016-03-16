@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAGA,kBACI,QAAU,CACb,OAGG,MACA,eACA,sBACA,YACA,UAAY,CACf","file":"style.css","sourcesContent":["@import 'base';\n@import 'tipography';\n\n.navbar-fixed-top {\n    top: 50px;\n}\n\n.intro {\n    top: 0;\n    position: fixed;\n    background-color: #333;\n    height: 50px;\n    width: 100%;\n}"],"sourceRoot":"/source/"}

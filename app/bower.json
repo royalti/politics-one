@@ -1,0 +1,22 @@
+{
+  "name": "empresarial_one_page",
+  "authors": [
+    "José Anchieta dos Santos Júnior <santosjr87@gmail.com>"
+  ],
+  "description": "Layout empresarial one-page",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "https://github.com/royalti/empresarial_one_page",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "angular": "~1.5.0"
+  }
+}
