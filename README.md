@@ -1,4 +1,4 @@
-# Layout Empresarial one-page
+# Politics one
 
 Setup for gulp and bower to be used in web projects.
 
