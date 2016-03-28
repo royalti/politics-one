@@ -9,14 +9,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Empresarial One-Page</title>
+    <title>Politics One</title>
 
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link href="css/style.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,10 +27,8 @@
 
 <body>
     
-    <div class="intro"></div> 
-    
      <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top nav-blue">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -41,17 +37,106 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Candidato um</a>
+          <a class="navbar-brand" href="#">Jair Bolsonaro <i class="fa fa-check"></i></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+            <li><a href="../navbar/">Campanha</a></li>
+            <li><a href="../navbar-static-top/">Propostas</a></li>
+            <li><a href="./">Contato</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active"> <img src="img/img-4.jpg" style="width:100%" alt="First slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <a href="#">
+                            <h1>Discurso de Jair Bolsonaro na câmera ajudou a dar andamento no processo.</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item"> <img src="img/img-3.jpg" style="width:100%" data-src="" alt="Second    slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <a href="#">
+                            <h1>Slide 2</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item"> <img src="img/img-2.jpg" style="width:100%" data-src="" alt="Second    slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <a href="#">
+                            <h1>Slide 3</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a> </div>
+    </div>
+
+     <div class="container">
+
+         <h3 class="h3-title"><i class="fa fa-newspaper-o"></i> Notícias</h3>
+
+            <div class="row row-in">
+                <div class="col-md-8 col-xs-12">
+                    <a href="#">
+                        <img src="img/img-1.jpg" style="height: 100%;" class="img-responsive" alt="">
+
+                        <div class="caption">
+                            <h1>They're creepy and they're kooky mysterious and spooky. They're all together ooky the.</h1>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-12 nice-padding-news" style="height: 228px; margin-bottom: 15px;">
+                            <a href="#">
+                                <h2 class="nice-padding-news title">
+                                    Em algumas agências no 90 circulou um texto chamado
+                                    "bonde amarelo" ou "metrô amarelo" sensata.
+                                </h2>
+                            </a>
+                        </div>
+                        <div class="col-md-12 nice-padding-news" style="height: 228px;">
+                            <a href="#">
+                                <h2 class="nice-padding-news title">
+                                    Em algumas agências no 90 circulou um texto chamado
+                                    "bonde amarelo" ou "metrô amarelo" sensata.
+                                </h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     </div>
+
+     <!-- end - slider -->
+
+     <div class="row frase">
+         <div class="container container-frase">
+             <h1>
+                 O grande erro da ditadura foi não matar vagabundos e canalhas como Fernando Henrique.
+             </h1>
+             <h3>Jair Bolsonaro</h3>
+         </div>
+     </div>
 
 
     <!-- jQuery -->
@@ -59,18 +144,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="bower_components/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="bower_components/classie.js"></script>
-    <script src="bower_components/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="bower_components/jqBootstrapValidation.js"></script>
-    <script src="bower_components/contact_me.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="bower_components/freelancer.js"></script>
 
 </body>
 
