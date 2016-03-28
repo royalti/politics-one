@@ -93,12 +93,20 @@ body {
   position: absolute;
 }
 
-.row-in .col-md-8 .caption:hover {
-  color: #fff;
+.black-bg-hover {
+  background-color: #000;
 }
 
-.news-1 {
-  background-color: #000;
+.row-in-col-1 img {
+  opacity: 0.8;
+}
+
+.row-in-col-1:hover img {
+  opacity: 0.6;
+}
+
+.row-in-col-1:hover .caption {
+  color: #fff;
 }
 
 .row-in .col-xs-12 {
