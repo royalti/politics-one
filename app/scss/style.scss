@@ -6,7 +6,10 @@
 
 body {
   background-color: $body-color;
-  padding-bottom: 500px;
+}
+
+a {
+  text-decoration: none;
 }
 
 #myCarousel {
@@ -49,24 +52,9 @@ body {
   color: $branco;
 }
 
-.frase {
-  padding: 20px 0 20px 0;
-  margin: 0;
-  background-color: $amarelo;
-}
-
-.container-frase {
-  text-align: center;
-  color: $azul;
-}
-
-.container-frase h1 {
-  font-family: 'Delius', cursive;
-}
-
-.container-frase h2 {
-  font-family: 'Montserrat', sans-serif;
-}
+/************************
+NOTICIAS
+************************/
 
 .h3-title {
   font-family: 'Montserrat', sans-serif;
@@ -85,7 +73,7 @@ body {
 
 .row-in .col-md-8 .caption {
   color: $amarelo;
-  text-shadow: 3px 2px 0px $azul;
+  text-shadow: 3px 2px 0px #000;
   text-align: right;
   padding: 0 20px 20px 20px;
   width:95%;
@@ -105,29 +93,90 @@ body {
   opacity: 0.6;
 }
 
-.row-in-col-1:hover .caption {
-  color: #fff;
-}
-
 .row-in .col-xs-12 {
   margin-bottom: 15px;
 }
 
 .nice-padding-news {
-  background-color: $azul;
+  background-color: $amarelo;
   margin-top: 0;
   padding: 10px;
 }
 
 .nice-padding-news a {
+  color: $azul;
+  text-decoration: none;
+}
+/************************
+FRASE
+************************/
+.frase {
+  padding: 20px 0 20px 0;
+  margin: 0;
+  background-color: $azul;
+}
+
+.container-frase {
+  text-align: center;
   color: $amarelo;
 }
 
-.nice-padding-news a:hover {
-  color: #fff;
-  text-decoration: none;
+.container-frase h1 {
+  font-family: 'Delius', cursive;
 }
 
-.title {
+.container-frase h2 {
+  font-family: 'Montserrat', sans-serif;
+}
 
+.bordered-black {
+  border: 1px solid #333;
+}
+
+/************************
+MIDIAS
+************************/
+
+#sec-midias .col-md-4 {
+  padding: 8px;
+}
+
+.sec-3-1 {
+  text-align: center;
+  color: $amarelo;
+  padding: 25px 0 10px 0;
+  background: $azul; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient($azul, #272C38); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient($azul, #272C38); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient($azul, #272C38); /* For Firefox 3.6 to 15 */
+  background: radial-gradient($azul, #272C38); /* Standard syntax */
+}
+
+.sec-3-1:hover {
+  text-align: center;
+  padding: 25px 0 10px 0;
+  background: $azul; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(#272C38, $azul); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#272C38, $azul); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(#272C38, $azul); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#272C38, $azul); /* Standard syntax */
+}
+
+.big-icon {
+  font-size: 32px;
+}
+
+/************************
+FOOTER
+************************/
+.sec-footer {
+  height: 120px;
+  background-color: $azul;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.row-with-padding {
+  padding: 50px 10px 20px 10px ;
 }
